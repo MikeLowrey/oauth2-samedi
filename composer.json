@@ -1,0 +1,13 @@
+{
+    "require": {
+        "league/oauth2-client": "^2.3",
+        "edwin-luijten/oauth2-strava": "^1.2",
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+      "psr-4": {
+        "League\\OAuth2\\Client\\Provider\\": "classes/"
+      }
+    }
+}
